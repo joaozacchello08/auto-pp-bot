@@ -2,14 +2,13 @@ from time import sleep
 from functions import abrir_ea_app, fazer_dme, fechar_ea_app, abrir_its_over_page
 
 while True:
-    print("eae viado, bora fazer dme")
+    print("eae dog, bora fazer dme")
     qtde_dmes = int(input("quantos dmes vc quer fazer? "))
     already_completed_dmes = 0
 
     # se o cara n digitar nada
     if qtde_dmes == 0:
         print("vsf entao pae")
-        print("smt seu bosta")
         sleep(3)
         break
 
